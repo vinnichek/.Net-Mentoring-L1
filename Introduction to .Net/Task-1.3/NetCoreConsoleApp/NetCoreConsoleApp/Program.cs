@@ -19,7 +19,7 @@ namespace NetCoreConsoleApp
             var config = builder.Build();
             var name = config["Name"];
 
-			Console.WriteLine(ClassWriter.WriteHello(name));
-		}
-	}
+            Console.WriteLine(ClassWriter.WriteHello(name));
+        }
+    }
 }
