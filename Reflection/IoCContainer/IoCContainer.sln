@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoCContainer", "IoCContainer\IoCContainer.csproj", "{795485D6-5166-4472-A058-5F05589BA1AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IocContainer.Test", "IocContainer.Test\IocContainer.Test.csproj", "{3E81EFB1-3B74-4032-972D-E9B1EF9A3EF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{795485D6-5166-4472-A058-5F05589BA1AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{795485D6-5166-4472-A058-5F05589BA1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{795485D6-5166-4472-A058-5F05589BA1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{795485D6-5166-4472-A058-5F05589BA1AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E81EFB1-3B74-4032-972D-E9B1EF9A3EF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E81EFB1-3B74-4032-972D-E9B1EF9A3EF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E81EFB1-3B74-4032-972D-E9B1EF9A3EF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E81EFB1-3B74-4032-972D-E9B1EF9A3EF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB2CB5D3-EFED-4E2F-8CAE-D4F98DEDD09C}
+	EndGlobalSection
+EndGlobal
