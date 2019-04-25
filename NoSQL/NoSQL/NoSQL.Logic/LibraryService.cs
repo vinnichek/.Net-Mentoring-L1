@@ -67,18 +67,6 @@ namespace NoSQL.Logic
 			FindAll();
 		}
 
-		public void FindAll()
-		{
-			var books = library.AsQueryable().ToList();
-
-			if (books.Count == 0)
-			{
-				Console.WriteLine("Book collection is empty");
-			}
-
-			PrintBookInfo(books);
-		}
-
 		public void FindBooksWithCountMoreThanOne()
 		{
 			var books = library.AsQueryable()
@@ -166,6 +154,18 @@ namespace NoSQL.Logic
 			Console.WriteLine("All books have been deleted.");
 		}
 
+	    	private void FindAll()
+		{
+			var books = library.AsQueryable().ToList();
+
+			if (books.Count == 0)
+			{
+				Console.WriteLine("Book collection is empty");
+			}
+
+			PrintBookInfo(books);
+		}
+	    	
 		private void PrintBookInfo(List<Book> books)
 		{
 			foreach (var book in books)
