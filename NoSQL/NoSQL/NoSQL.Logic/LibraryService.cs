@@ -11,6 +11,7 @@ namespace NoSQL.Logic
 		private MongoClient mongoClient;
 		private IMongoCollection<Book> library;
 		private IMongoDatabase db;
+	    
 		public LibraryService()
 		{
 			mongoClient = new MongoClient();
